@@ -12,4 +12,6 @@ npm install
 npm run dev
 
 ```
+上线部署：
+npm run build
 
