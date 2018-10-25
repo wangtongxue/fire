@@ -1,0 +1,155 @@
+#baojing {
+  width: 100%;
+  height: 93%;
+  /*background-color: red;*/
+}
+.fireData {
+  /*background-color: yellowgreen;*/
+  height: 560px !important;
+}
+.publicPaging {
+  width: 100%;
+  height: 30px;
+  /*background: rgba(0,0,0,0);*/
+  margin-top: 5px!important;
+}
+
+
+/*根据不同分辨率引入样式*/
+@media screen and (max-width: 1920px) {
+  .fireData {
+    height: 554px!important;
+  }
+  .fireData th {
+    height: 50px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 14px 0!important;
+  }
+  .publicPaging {
+    margin-top: 15px!important;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .fireData {
+    height: 544px!important;
+  }
+  .fireData th {
+    height: 55px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 13px 0!important;
+  }
+  .publicPaging {
+    margin-top: 10px!important;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .fireData {
+    height: 440px!important;
+  }
+  .fireData th {
+    height: 40px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 9px 0!important;
+  }
+  .publicPaging {
+    margin-top: 17px!important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .fireData {
+    height: 440px!important;
+  }
+  .fireData th {
+    height: 40px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 9px 0!important;
+  }
+  .publicPaging {
+    margin-top: 17px!important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .fireData {
+    height: 550px!important;
+  }
+  .fireData th {
+    height: 50px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 14px 0!important;
+  }
+  .publicPaging {
+    margin-top: 15px!important;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .fireData {
+    height: 366px!important;
+  }
+  .fireData th {
+    height: 35px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 5px 0!important;
+  }
+  .publicPaging {
+    margin-top: 5px!important;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .fireData {
+    height: 366px!important;
+  }
+  .fireData th {
+    height: 35px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 5px 0!important;
+  }
+  .publicPaging {
+    margin-top: 5px!important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .fireData {
+    height: 380px!important;
+  }
+  .fireData th {
+    height: 35px!important;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .fireData td {
+    padding: 6px 0!important;
+    font-fize: 12px;
+  }
+  .publicPaging {
+    margin-top: 10px!important;
+  }
+}

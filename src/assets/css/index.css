@@ -1,0 +1,374 @@
+html, body {
+  overflow: hidden;
+}
+#index-bg-head {
+  width: 100%;
+  height: 100%;
+  background: #000115 url("../img/index_bg_head.png") no-repeat center 0;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+  transition: background 2s;
+}
+/* logo */
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+}
+#logo img {
+  width: 100%;
+  height: 100%;
+}
+#index-bg-body {
+  width: 100%;
+  height: 100%;
+  /*background:  url("../img/index_bg_body.png") no-repeat center 0;*/
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.home_bg {
+  background:  url("../img/index_bg_body.png") no-repeat center 0;
+  transition: background 2s, opacity 0.5s;
+}
+.not_home_bg {
+  background:  url("../img/not_index_bg.png") no-repeat center 0;
+  transition: background 2s, opacity 0.5s;
+}
+/*--------头部--------------------------------------------------*/
+.header {
+  position: absolute;
+  top: 6%;
+  /*height: 50px;*/
+  height: 5.134%;
+  width: 100%;
+ }
+#main {
+  width: 100%;
+  position: absolute;
+  bottom: 0.3%;
+  top: 12%;
+  /*padding-left: 40px;*/
+}
+#footer {
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+}
+.header .nav_tab {
+  width: 100%;
+  height: 100%;
+}
+#index_container, #area_tree_container, #system_container {
+  float: left;
+  width: 8%;
+  height: 100%;
+  margin-left: 3%;
+  display: table;
+  font-size: 1rem;
+}
+#index_tab, #area_tab, #system_tab {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  text-align: center;
+  background: url("../img/area_tab.png") no-repeat center;
+  background-size: 100% 100%;
+  text-decoration: none;
+  color: #66c4f0;
+}
+.header .nav_tab a:hover {
+  color: #fff !important;
+}
+/********单位选择*********************************************************/
+#area_tree_container {
+  position: relative;
+}
+#area_tabBox {
+  width: 200%;
+  height: 0px;
+  opacity: 0;
+  transition: height 0.3s, opacity 0.5s;
+  border: 1px solid #66c4f0;
+  position: absolute;
+  left: -50%;
+  top: 102%;
+  z-index: 1000;
+  background: #000115;
+  color: #fff;
+  font-family: 'SimSun';
+  /*font-size: 0.1rem;*/
+  overflow: hidden;
+}
+#area_tabBox .happy-scroll {
+  height: 100%;
+}
+#area_tabBox .happy-scroll .happy-scroll-container {
+  width: 100% !important;
+  height: 100% !important;
+  box-sizing: border-box;
+}
+
+#area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content {
+  width: 100%;
+  height: 100%;
+  border: none !important;
+  padding: 0;
+}
+#area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree {
+  background: rgba(0,0,0,0);
+  color: #fff;
+}
+
+.el-tree-node:focus>.el-tree-node__content, .el-tree-node__content:hover{
+  background: rgba(102,196,240,0.8);
+  color:#fff;
+  /*opacity: 0.8;*/
+}
+#area_tree_container:hover #area_tabBox {
+  height: 1600%;
+  opacity: 1;
+}
+.happy-scroll-strip .happy-scroll-bar{
+  border-radius: 0 !important;
+}
+/***************系统管理tab*********************************************************************/
+#system_container {
+  position: relative;
+}
+#system_tabBox {
+  width: 100%;
+  height: 0px;
+  opacity: 0;
+  transition: height 0.4s, opacity 0.5s;
+  overflow: hidden;
+  position: absolute;
+  top: 102%;
+  left: 0%;
+  border: 1px solid #66c4f0;
+  box-sizing: border-box;
+  z-index: 1000;
+  background-color: #000115;
+}
+#system_tabBox .tab {
+  width: 100%;
+  overflow: hidden;
+}
+#system_tabBox .tab a {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #71c7d5;
+  font-family: 'SimSun';
+  font-size: 14px;
+  background-image: none;
+  margin: 6px 0 !important;
+}
+#system_tabBox .tab a:hover {
+  /*background: rgba(255,255,255,0.3);*/
+}
+#system_container:hover #system_tabBox {
+  opacity: 1;
+  height: 196px;
+}
+/*三个导航按钮的选中颜色*/
+.activeTab {
+  color: #fff !important;
+}
+/***********************右上角 user*******************************************************/
+.header .user {
+  width: 180px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: -61%;
+  /*vertical-align: middle;*/
+  line-height: 32px;
+  font-family: 'SimSun';
+  font-size: 0.75rem;
+  color: #66c4f0;
+}
+.header .user i {
+  width: 23px;
+  height: 32px;
+  background-image: url("../img/user_head.png");
+  float: left;
+  margin-right: 11px;
+}
+.header .user span {
+  margin-right: 36px;
+}
+.header .user .btn {
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+/********************mask**********************************************************/
+#mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+#mask .maskAlert {
+  width: 360px;
+  height: 200px;
+  border: 2px solid #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -180px;
+  margin-top: -100px;
+  color: #333;
+  background: #f3f3f3;
+  text-align: center;
+  border-radius: 10px;
+}
+#mask .maskAlert span {
+  display: block;
+  margin: 30px auto 0;
+  width: 240px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#mask .maskAlert em {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  background: #1789df;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 50px 30px 0 30px;
+  color: #fff;
+}
+/******************************************************************************/
+/*-------------过渡动画------------------------------------------------------*/
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .4s ease;
+}
+.component-fade-enter, .component-fade-leave-to {
+  opacity: 0;
+}
+/*------这里是下边组件的公共样式--------------------------------*/
+.public_css {
+  width: 96%;
+  height: 100%;
+  color: #fff;
+  padding: 0 124px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.public_css .public_nav {
+  width: 100%;
+  height: 3.081%;
+  line-height: 30px;
+  font-size: 0.875em;
+  font-family: 'SimSun';
+}
+.public_css .public_box {
+  width: 100%;
+  height: 90%;
+  border: 1px solid #71c7d5;
+  padding: 10px 46px;
+  box-sizing: border-box;
+  margin-top: 1%;
+}
+
+/*遮罩*/
+.error_mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*根据不同分辨率引入样式*/
+@media screen and (max-width: 1920px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 90px;
+    height: 36px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 90px;
+    height: 36px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 80px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 80px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 80px;
+    height: 32px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 70px;
+    height: 28px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 70px;
+    height: 28px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #area_tabBox .happy-scroll .happy-scroll-container .happy-scroll-content .el-tree .el-tree-node__label {
+    font-size: 14px;
+  }
+  #logo {
+    width: 80px;
+    height: 32px;
+  }
+}

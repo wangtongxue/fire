@@ -1,0 +1,480 @@
+.public_nav a{
+  text-decoration: none;
+}
+.unitManagement{
+  width: 100%;
+  height: 100%;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+  /*单位类型*/
+.unitManagement_type .el-form-item .el-form-item__content .el-form-item__error{
+  margin-top: 33px!important; /**/
+}
+.unitManagement .el-form-item__error{
+  width: 200px; /**/
+  left: 0 !important;
+  top: auto;
+  text-align: left;
+}
+.unitManagement_type{
+  width: 100%;
+  height: 35px; /**/
+}
+.unitManagement_type .el-form-item{
+  height: 100%;
+}
+.unitManagement_type .el-form-item .el-form-item__content{
+  height: 100%;
+  border:1px solid #71c7d5;
+  text-align: center;
+  box-sizing: border-box;
+  width: 800px;/**/
+  background-color: rgba(14,30,65,1);
+  position: relative;
+}
+.unitManagement_type .el-form-item .el-form-item__content .el-radio-group{
+  width: 100%;
+  height: 100%;
+  vertical-align: initial;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.unitManagement_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+  width: 130px; /**/
+  height: 100%;
+  margin-left: 0;
+  color: #fff;
+  float: left;
+  line-height: 33px;
+}
+/*基本信息*/
+.unitManagement_information{
+  width: 100%;
+  height:350px; /**/
+  margin-top: 20px; /**/
+}
+.unitManagement_information .unitManagement_addUnit_info{
+  font-size: 14px;
+  height: 100%;
+  width: 100px; /**/
+}
+.unitManagement_information .unitManagement_addUnit_box{
+  border:1px solid #71c7d5;
+  margin-left: 100px;
+  height: 100%;
+  padding-top: 30px; /**/
+  box-sizing: border-box;
+  background-color: rgba(14,30,65,1);
+}
+.unitManagement_addUnit_box  .el-form-item{
+  height: 36px; /**/
+}
+.selectDizhi .el-input__inner {
+  height: 24px !important;
+}
+.unitManagement_addUnit_box  .el-form-item .el-form-item__content{
+  height: 100%;
+}
+.unitManagement_addUnit_box  .el-form-item .el-form-item__content .el-input{
+  height: 100%;
+}
+.unitManagement_addUnit_box  .el-form-item .el-form-item__content .el-input input{
+  height: 100%;
+  width: 40%;
+  border:1px solid #71c7d5;
+  background: #ffffff;
+}
+.unitManagement_addUnit_ad{
+  height: 14%;/**/
+  margin-bottom: 1%;
+  position: relative;
+}
+.unitManagement_addUnit_address{
+  margin-left: 8px;
+  float: left;
+  position: absolute;
+  left: 86px; /**/
+  top: 0;
+  z-index: 121;
+}
+.unitManagement_addUnit_address_set{
+  font-size: 14px;
+  margin-left: 50px; /**/
+  float: left;
+  line-height: 30px;
+}
+.unitManagement_addUnit_address_title{
+  color: #333333;
+}
+.unitManagement_addUnit_address_title div{
+  float: left;
+  height: 30px;
+  width: 128px;
+  font-size: 14px;
+  background-color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.unitManagement_addUnit_address_ul li{
+  background: #ffffff;
+  width: 130px;
+  display: block;
+  cursor: pointer;
+}
+.unitManagement_addUnit .el-input__inner .el-form-item__content{
+  margin-top: 80px;
+}
+.unitManagement_addUnit_address_ul li{
+  background: #ffffff;
+  width: 129px;
+  display: block;
+  cursor: pointer;
+}
+.addList{
+  width:100%;
+  padding-left:0.32rem;
+  font-size:0.34rem;
+  line-height:0.88rem;
+  color:#666666;
+}
+.unitManagement_addUnit_map{
+  margin-left: 47px;
+  position: relative;
+  font-size: 14px;
+  line-height: 30px;
+  height: 15%;
+}
+.unitManagement_addUnit_map span{
+  color: rgba(255,255,255,0.8);
+}
+.unitManagement_addUnit_map_cha{
+  width: 8%;
+  height: 200%;
+  position: absolute;
+  left: 190px;
+  top: 0;
+  cursor: pointer;
+}
+/*添加联系人*/
+.unitManagement_contacts{
+  width: 100%;
+  height: 210px; /**/
+  margin-top: 20px;/**/
+}
+.unitManagement_addUnit_add{
+  border:1px solid #71c7d5;
+  margin-left: 100px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(14,30,65,1);
+}
+.unitManagement_addUnit_set{
+  font-size: 14px;
+  margin-left: 3px; /**/
+}
+.unitManagement_addUnit_add  .el-form-item{
+  height: 40px; /**/
+  /*margin-bottom: 1%;*/
+  margin-top: 15px; /**/
+}
+.unitManagement_addUnit_add  .el-form-item .el-form-item__content{
+  height: 100%;
+}
+.unitManagement_addUnit_add  .el-form-item .el-form-item__content .el-input{
+  height: 100%;
+}
+.unitManagement_addUnit_add  .el-form-item .el-form-item__content .el-input input{
+  height: 100%;
+  width: 40%;
+  border:1px solid #71c7d5;
+  background: #ffffff;
+}
+
+/*确认否*/
+.unitManagement_confirm{
+  width: 100%;
+  height: 5%;
+  margin-top: 2%;
+}
+.unitManagement_confirm .el-form-item{
+  height: 100%;
+}
+.unitManagement_confirm .el-form-item .el-form-item__content{
+  height: 100%;
+  text-align: center;
+}
+.unitManagement_confirm .el-form-item .el-form-item__content .el-button{
+   height: 40%;
+   width: 6%;
+   padding: 0;
+ }
+.unitManagement_confirm .el-form-item .el-form-item__content .el-button{
+  height: 100%;
+  margin-left: 5%;
+}
+
+/*地图区域样式*/
+#mapContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 300;
+}
+.addMapBox {
+  width: 860px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -300px 0 0 -430px;
+}
+
+
+
+
+
+/*根据不同分辨率引入样式*/
+@media screen and (min-width: 1920px) {
+  .unitManagement_type .el-form-item .el-form-item__content .el-form-item__error{
+    margin-top: -8px; /**/
+  }
+  .unitManagement .el-form-item__error{
+    width: 200px; /**/
+  }
+  .unitManagement_type{
+    height: 35px; /**/
+  }
+  .unitManagement_type .el-form-item .el-form-item__content{
+    width: 800px;/**/
+  }
+  .unitManagement_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+    width: 130px; /**/
+  }
+  /*基本信息*/
+  .unitManagement_information{
+    height:350px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_box{
+    padding-top: 30px; /**/
+  }
+  .unitManagement_addUnit_box  .el-form-item{
+    height: 36px; /**/
+  }
+  .unitManagement_addUnit_ad{
+    height: 14%;/**/
+  }
+  .unitManagement_addUnit_address{
+    left: 86px; /**/
+  }
+  .unitManagement_addUnit_address_set{
+    margin-left: 50px; /**/
+  }
+  /*添加联系人*/
+  .unitManagement_contacts{
+    height: 210px; /**/
+    margin-top: 20px;/**/
+  }
+  .unitManagement_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitManagement_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+  .unitManagement_type .el-form-item .el-form-item__content .el-form-item__error{
+    margin-top: -8px; /**/
+  }
+  .unitManagement .el-form-item__error{
+    width: 200px; /**/
+  }
+  .unitManagement_type{
+    height: 35px; /**/
+  }
+  .unitManagement_type .el-form-item .el-form-item__content{
+    width: 800px;/**/
+  }
+  .unitManagement_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+    width: 130px; /**/
+  }
+  /*基本信息*/
+  .unitManagement_information{
+    height:350px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_box{
+    padding-top: 30px; /**/
+  }
+  .unitManagement_addUnit_box  .el-form-item{
+    height: 36px; /**/
+  }
+  .unitManagement_addUnit_ad{
+    height: 14%;/**/
+  }
+  .unitManagement_addUnit_address{
+    left: 86px; /**/
+  }
+  .unitManagement_addUnit_address_set{
+    margin-left: 50px; /**/
+  }
+  /*添加联系人*/
+  .unitManagement_contacts{
+    height: 210px; /**/
+    margin-top: 20px;/**/
+  }
+  .unitManagement_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitManagement_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (max-width: 1680px) {
+
+}
+@media screen and (max-width: 1600px) {
+  .unitManagement_type{
+    height: 30px; /**/
+  }
+  .unitManagement_type .el-form-item .el-form-item__content{
+    width: 800px;/**/
+  }
+  .unitManagement_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+    width: 130px; /**/
+  }
+  /*基本信息*/
+  .unitManagement_information{
+    height:220px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_box{
+    padding-top: 20px; /**/
+    height: 220px;
+  }
+  .unitManagement_addUnit_box  .el-form-item{
+    height: 30px; /**/
+  }
+  .unitManagement_addUnit_ad{
+    height: 12%;/**/
+  }
+  /*添加联系人*/
+  .unitManagement_contacts{
+    height: 210px; /**/
+    margin-top: 20px;/**/
+  }
+  .unitManagement_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitManagement_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (max-width: 1440px) {
+  .unitManagement_addUnit_ad .el-select {
+    width: 180px!important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .unitManagement_type{
+    height: 32px; /**/
+  }
+  /*基本信息*/
+  .unitManagement_information{
+    height:300px; /**/
+    margin-top: 36px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_box{
+    padding-top: 10px; /**/
+    height: 300px;
+  }
+  .unitManagement_addUnit_box  .el-form-item{
+    height: 36px; /**/
+  }
+  .unitManagement_addUnit_ad{
+    height: 16%;/**/
+  }
+  /*添加联系人*/
+  .unitManagement_contacts{
+    height: 210px; /**/
+    margin-top: 36px;/**/
+  }
+  .unitManagement_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitManagement_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+  .unitManagement_addUnit_ad .el-select {
+    width: 170px!important;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .unitManagement_type{
+    height: 32px; /**/
+  }
+  /*基本信息*/
+  .unitManagement_information{
+    height:220px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitManagement_information .unitManagement_addUnit_box{
+    padding-top: 10px; /**/
+    height: 220px;
+  }
+  .unitManagement_addUnit_box  .el-form-item{
+    height: 30px; /**/
+  }
+  .unitManagement_addUnit_ad{
+    height: 12%;/**/
+  }
+  /*添加联系人*/
+  .unitManagement_contacts{
+    height: 144px; /**/
+    margin-top: 10px;/**/
+  }
+  .unitManagement_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitManagement_addUnit_add  .el-form-item{
+    height: 24px; /**/
+    margin-top: 0px; /**/
+  }
+  .unitManagement_addUnit_ad .el-select {
+    width: 170px!important;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .unitManagement_addUnit_ad .el-select {
+    width: 170px!important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .unitManagement_addUnit_ad .el-select {
+    width: 150px!important;
+  }
+}

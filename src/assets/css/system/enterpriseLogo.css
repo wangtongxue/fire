@@ -1,0 +1,260 @@
+#enpriseBox {
+  width: 850px;
+  height: 456px;
+  /*background-color: #ccc;*/
+  margin: 4% auto 0;
+}
+#enpriseBox h5 {
+  width: 100%;
+  height: 40px;
+  background-color: #4482bc;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+#enpriseBox .enpriseMainBox {
+  height: 416px;
+  width: 100%;
+  /*background-color: yellowgreen;*/
+  position: relative;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop {
+  width: 100%;
+  height: 355px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-top: 0;
+  padding: 42px;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .comNameBox {
+  width: 100%;
+  height: 21px;
+  margin-bottom: 26px;
+}
+.comNameBox input {
+  width: 75%;
+  background-color: rgba(0,0,0,0);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 0 20px;
+  color: #71c7d5;
+  /*text-align: center;*/
+  font-size: 18px;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .comTitle {
+  display: inline-block;
+  width: 100px;
+  height: 100%;
+  /*background-color: red;*/
+  text-align: right;
+  float: left;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox {
+  width: 100%;
+  height: 200px;
+  /*background-color: #71c7d5;*/
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo {
+  width: 664px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload__tip {
+  position: absolute;
+  left: 220px;
+  top: 60px;
+  color: #999;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul {
+  width: 200px;
+  height: 80px;
+  display: block;
+  margin-top: 48px;
+  box-sizing: border-box;
+  border: 1px solid #71c7d5;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul li {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: rgba(0,0,0,0);
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul li a, #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul li span, #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul li label {
+  display: none;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload {
+  width: 85px;
+  height: 20px;
+  border: 0;
+  border-radius: 0;
+  line-height: 0;
+  margin-top: 60px;
+  margin-left: 58px;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload .el-button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: #4482bc;
+  border: 0;
+  border-radius: 0;
+  z-index: 10;
+  /*position: relative;*/
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload .el-upload__input {
+  display: block;
+  margin-top: -21px;
+  visibility: hidden;
+}
+#enpriseBox .enpriseMainBox .enpriseMainBoxBtn {
+  height: 36px;
+  width: 70px;
+  background-color: #2e59a2;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  left: 38%;
+  bottom: -127px;
+  /*margin-left: -805px;*/
+  font-size: 16px;
+}
+/*根据不同分辨率引入样式*/
+@media screen and (min-width: 1920px) {
+
+}
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+
+}
+@media screen and (max-width: 1680px) {
+
+}
+@media screen and (max-width: 1600px) {
+
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1366px) {
+  #enpriseBox {
+    width: 750px;
+    height: 400px;
+    margin: 4% auto 0;
+  }
+  #enpriseBox .enpriseMainBox {
+    height: 360px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop {
+    height: 300px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop .comNameBox {
+    margin-bottom: 20px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox {
+    height: 160px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo {
+    width: 500px;
+    height: 160px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload__tip {
+    left: 180px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul {
+    width: 160px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload {
+    margin-top: 20px;
+    margin-left: 38px;
+  }
+  #enpriseBox .enpriseMainBox .enpriseMainBoxBtn {
+    left: 38%;
+    bottom: -117px;
+  }
+}
+/*@media screen and (max-width: 1360px) {*/
+  /*#enpriseBox {*/
+    /*width: 750px;*/
+    /*height: 400px;*/
+    /*margin: 4% auto 0;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox {*/
+    /*height: 360px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop {*/
+    /*height: 300px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .comNameBox {*/
+    /*margin-bottom: 20px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox {*/
+    /*height: 160px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo {*/
+    /*width: 500px;*/
+    /*height: 160px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload__tip {*/
+    /*left: 180px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul {*/
+    /*width: 160px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload {*/
+    /*margin-top: 20px;*/
+    /*margin-left: 38px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxBtn {*/
+    /*left: 38%;*/
+    /*bottom: -117px;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 1280px) {*/
+  /*#enpriseBox {*/
+    /*width: 750px;*/
+    /*height: 400px;*/
+    /*margin: 4% auto 0;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox {*/
+    /*height: 360px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop {*/
+    /*height: 300px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .comNameBox {*/
+    /*margin-bottom: 20px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox {*/
+    /*height: 160px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo {*/
+    /*width: 500px;*/
+    /*height: 160px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload__tip {*/
+    /*left: 180px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo ul {*/
+    /*width: 160px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxTop .picBox .upload-demo .el-upload {*/
+    /*margin-top: 20px;*/
+    /*margin-left: 38px;*/
+  /*}*/
+  /*#enpriseBox .enpriseMainBox .enpriseMainBoxBtn {*/
+    /*left: 38%;*/
+    /*bottom: -117px;*/
+  /*}*/
+/*}*/
+
+
+

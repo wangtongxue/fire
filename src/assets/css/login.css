@@ -1,0 +1,106 @@
+html, body, #app {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#login-bg {
+  width: 100%;
+  height: 100%;
+  background: url("../img/login_bg.jpg") no-repeat center 0;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.box-card {
+  width: 650px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -200px 0 0 -325px;
+  border: 2px solid #376ea7;
+  background-color: rgba(58,123,197,0.1);
+}
+.el-card__body {
+  padding: 0px;
+}
+.el-card__body .login-header {
+  height: 70px;
+  box-sizing: border-box;
+  background-color: rgba(49,125,210,0.2);
+  border-bottom: 2px solid rgba(54,112,173,0.4);
+  margin-bottom: 20px;
+}
+.el-card__body .login-header span {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'SimSun';
+  line-height: 68px;
+  text-indent: 1em;
+  padding-left: 18px;
+}
+
+.el-card__body #login-from el-form-item::before {
+  content: '111' !important;
+  color: #000 !important;
+  width: 10px;
+}
+#login-from .el-input {
+  background: rgba(5,27,52,0.3);
+  border: 1px solid #bcd1de;
+  border-radius: 0;
+  width: 396px;
+  height: 48px;
+  box-sizing: border-box;
+  margin-left: -4px;
+  position: absolute;
+  top: 30px;
+}
+#login-from .el-input .el-input__inner {
+  background: rgba(5,27,52,0.3);
+  border-radius: 0;
+  width: 396px;
+  height: 46px;
+  box-sizing: border-box;
+  outline: none;
+}
+#box-card form img {
+  margin-top: 30px;
+}
+#box-card form .el-form-item {
+  margin-bottom: 0px !important;
+}
+#login-from .log, .el-card__body .log button {
+  width: 182px;
+  height: 54px;
+  border: 1px solid #1f63b0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#login-from .log {
+  margin-top: 22px;
+  margin-left: 244px;
+}
+#login-from .log button {
+  margin-left: -101px;
+  margin-top: -1px;
+  font-size: 24px;
+  font-family: 'SimSun';
+}
+#forget-pass {
+  width: 94px;
+  height: 24px;
+  font-size: 18px;
+  font-family: 'SimSun';
+  color: #999;
+  margin-left: 422px;
+}
+#login-from .el-form-item__error, #login-from .el-form-item.is-error .el-input__validateIcon {
+  color: #f56c6c;
+}
+#login-from .el-form-item__error {
+  margin-left: 100px;
+  margin-top: -10px;
+}
+#login-from .el-form-item.is-error .el-input__inner {
+  border-color: #f56c6c;
+}

@@ -1,0 +1,81 @@
+.fenxi_body_box {
+  width: 100%;
+  height: 94.96%;
+  background: rgba(14,30,65,1);
+  padding: 1.4% ;
+  box-sizing: border-box;
+  margin-top: 0.4%;
+  position: relative;
+  overflow: hidden;
+}
+/*---------分析火灾界面的饼状图----------------------------------------------*/
+.fenxi_body_box .fenxi_pie {
+  width: 36%;
+  height: 46%;
+  /*background: red;*/
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+#echartContainer {
+  width: 70%;
+  height: 100%;
+  margin-left: 10%;
+}
+#echartContainer div:nth-of-type(1) {
+  /*border: 1px solid #38718b !important;*/
+}
+  /*---------分析火灾界面的表格----------------------------------------------*/
+.fenxi_body_box .fenxi_table {
+  width: 60%;
+  height: 46%;
+  /*background-color: yellowgreen;*/
+  position: absolute;
+  right: 150px;
+  bottom: 20px;
+}
+.fenxi_body_box .fenxi_table .huozai_box_table {
+  margin: 10% 0 0 5%!important;
+}
+.fenxi_body_box .fenxi_table .table_title {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 12px;
+}
+.fenxi_body_box .fenxi_table .el-table__body-wrapper {
+  overflow: hidden;
+}
+.fenxi_body_box .el-table--border::after, .el-table--group::after {
+  top: 0;
+  right: 0;
+  width: 0px;
+  height: 100%;
+}
+.fenxi_body_box .el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: hidden;
+}
+.el-table::before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+}
+.el-table {
+  background-color: rgba(0,0,0,0);
+}
+/*---------分析火灾界面的线形图----------------------------------------------*/
+.fenxi_body_box .fenxi_line {
+  width: 97.2%;
+  height: 50%;
+  /*background: green;*/
+  position: absolute;
+  /*bottom: 20px;*/
+}
+#lineContainer {
+  width: 100%;
+  height: 100%;
+  /*margin-left: 10%;*/
+  /*background-color: yellowgreen;*/
+}

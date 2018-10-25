@@ -1,0 +1,335 @@
+.unitManagement_nav {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 0.875em;
+  font-family: 'SimSun';
+}
+.unitManagement_box {
+  width: 100%;
+  height: 90%;
+  border: 1px solid #71c7d5;
+  padding: 10px 46px;
+  box-sizing: border-box;
+  /*margin-top: 1%;*/
+}
+.unitEditBtn {
+  font-size: 12px!important;
+}
+/*搜索添加*/
+.unitManagement_box .unitManagement_search{
+  width: 100%;
+  height: 26px;
+  padding-top: 2px;
+}
+.unitManagement_search .unitManagement_search_input{
+  float: left;
+  height: 100%;
+  width: 25%;
+}
+.unitManagement_search .el-autocomplete .el-input{
+  height: 100%;
+}
+.unitManagement_search .el-input__inner:focus {
+  border-color: #409EFF;
+  border-right: 1px solid #ccc;
+  outline: 0;
+}
+.unitManagement_search .el-autocomplete .el-input input{
+  height: 100%;
+}
+.unitManagement_search .unitManagement_search_button{
+  float: left;
+  height: 100%;
+  width: 5%;
+  border: 1px #cccccc solid;
+  background: #00a0e9;
+  color: #ffffff;
+  border-radius: 0;
+  line-height: 26px;
+  padding: 0;
+}
+.unitManagement_search .unitManagement_search_button:hover, .unitManagement_add_button:hover{
+  background: #0482bb;
+}
+/*添加*/
+.unitManagement_search  .unitManagement_add_button:hover{
+  background: #0482bb;
+}
+.unitManagement_search .unitManagement_add_button{
+  margin-left: 2%;
+  float: left;
+  height: 24px;
+  width: 5%;
+  border: 1px #cccccc solid;
+  background: #00a0e9;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 0 3px;
+  line-height: 24px;
+}
+.unitAddBtn {
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+.unitManagement_search .unitManagement_add_button span{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.unitManagement_search .unitManagement_add_button span a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+  position: absolute;
+  top:30%;
+  left: 0;
+}
+.el-input__suffix { /*搜索框后边的清空按钮的样式*/
+  /*background-color: red;*/
+  width: 10%;
+  height: 100%;
+}
+.el-input__suffix .el-input__suffix-inner {
+  /*background-color: red;*/
+  width: 100%;
+  height: 100%;
+}
+.el-input__suffix .el-input__icon {
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+}
+
+/*!*单位数据*!*/
+.unitManagement_data {
+  width: 100%;
+  height: 610px;
+  margin-top: 1%;
+}
+.unitManagement_data th {
+  height: 30px;
+  font-weight: bold;
+  font-family: 'SimSun';
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+  background: rgba(14,30,65,1);
+  text-align: center;
+  box-sizing: border-box;
+}
+.unitManagement_data td {
+  /*padding: 10px;*/
+  font-family: 'SimSun';
+  font-fize: 12px;
+  color: #fff;
+  text-align: center;
+  background: rgba(14,30,65,1);
+}
+.unitManagement_data .el-table__body {
+  border-bottom: 1px solid #71c7d5;
+}
+td div::selection {
+  color: #fff;
+  background-color: yellowgreen;
+}
+.unitManagement_data .el-table__body .el-table__row td {
+  background: rgba(0,1,21,1) !important;
+}
+.unitManagement_data .el-table__body .el-table__row--striped td {
+  /*background: rgba(46,89,162, 0.7) !important;*/
+  background: #0f2151 !important;
+}
+.unitManagement_data .el-table td {
+  border-bottom: 0px solid #71c7d5;
+}
+.unitManagement_data .el-table--enable-row-hover .el-table__body tr:hover>td{
+  /*background-color: #212e6e !important;*/
+  background: rgba(46,129,240, 1) !important;
+
+}
+
+.el-tooltip__popper.is-dark { /*提示框tooltip的颜色*/
+  background: #00a0e9;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+.el-tooltip__popper[x-placement^=top] .popper__arrow:after {
+  border-top-color: #00a0e9;
+}
+.el-tooltip__popper[x-placement^=top] .popper__arrow {
+  border-top-color: #00a0e9;
+}
+.cell {
+  width: auto!important;
+}
+  /*翻页*/
+.unitManagement_box .unitManagement_paging {
+  width: 100%;
+  height: 30px;
+  /*background: #999;*/
+  margin-top: 5px;
+}
+.unitManagement_paging span {
+  font-size: 14px;
+  font-family: 'SimSun';
+  font-weight: bold;
+  line-height: 30px;
+  float: left;
+}
+.unitManagement_paging .el-pagination {
+  width: auto;
+  height: 100%;
+  float: right;
+  font-size: 12px;
+}
+.unitManagement_paging .el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li {
+  margin: 0 0 0 16px;
+  background-color: #fff;
+  color: #000;
+  min-width: 30px;
+  border-radius: 0px;
+  padding: 0 5px;
+}
+.unitManagement_paging .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #2e58a2;
+  color: #fff;
+}
+
+.unitManagement_paging .el-pagination.is-background .btn-next.disabled, .el-pagination.is-background .btn-next:disabled, .el-pagination.is-background .btn-prev.disabled, .el-pagination.is-background .btn-prev:disabled, .el-pagination.is-background .el-pager li.disabled {
+  background-color: #ccc;
+  color: #999;
+}
+
+
+/*根据不同分辨率引入样式*/
+@media screen and (max-width: 1920px) {
+  .unitManagement_data {
+    height: 610px;
+  }
+  .unitManagement_data td {
+    padding: 13px 0;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .unitManagement_data {
+    height: 610px;
+  }
+  .unitManagement_data td {
+    padding: 11px 0;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 0.8%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .unitManagement_data {
+    height: 500px;
+  }
+  .unitManagement_data th {
+    height: 34px;
+    padding: 0px;
+  }
+  .unitManagement_data td {
+    padding: 7px 0;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 0.8%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .unitManagement_data {
+    height: 500px;
+  }
+  .unitManagement_data th {
+    height: 34px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .unitManagement_data td {
+    padding: 7px 0;
+    font-fize: 12px;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 1%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .unitManagement_data {
+    height: 600px;
+  }
+  .unitManagement_data th {
+    height: 50px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .unitManagement_data td {
+    padding: 11px 0;
+    font-fize: 12px;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 1.0%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .unitManagement_data {
+    height: 410px;
+  }
+  .unitManagement_data th {
+    height: 34px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .unitManagement_data td {
+    padding: 2px 0;
+    font-fize: 12px;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 0.5%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .unitManagement_data {
+    height: 410px;
+  }
+  .unitManagement_data th {
+    height: 34px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .unitManagement_data td {
+    padding: 2px 0;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 0.5%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .unitManagement_data {
+    height: 400px;
+  }
+  .unitManagement_data th {
+    height: 38px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .unitManagement_data td {
+    padding: 3px 0;
+    font-fize: 12px;
+  }
+  .unitManagement_box .unitManagement_paging {
+    margin-top: 4.5%;
+  }
+}

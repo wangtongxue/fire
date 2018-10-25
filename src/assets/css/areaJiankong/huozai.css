@@ -1,0 +1,46 @@
+/*-------导航和表格-------------------------------------------------------*/
+.huozai_box {
+  width: 100%;
+  height: 94.96%;
+  background: rgba(14,30,100,1);
+  padding: 1% ;
+  box-sizing: border-box;
+  margin-top: 0.4%;
+}
+/*-------表格导航-------------------------------------------------------*/
+.huozai_box .huozai_box_nav {
+  height: 4.545%;
+  width: 100%;
+}
+.huozai_box .huozai_box_nav li {
+  background: #0b308f;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #71c7d5;
+  font-size: 0.75em;
+  font-family: 'SimSun';
+  padding: 0 0.5625em;
+  margin-right: 1.25em;
+  float: left;
+  display: table;
+}
+.huozai_box .huozai_box_nav li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+.huozai_box .router-link-active {
+  background: #127cc2 !important;
+}
+/*过渡动画*/
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to {
+  opacity: 0;
+}
+

@@ -1,0 +1,122 @@
+/*!*---顶部select和导出------------------------------*!*/
+.bus_select_head {
+  width: 100%;
+  height: 30px;
+}
+.bus_select_head .owner_form {
+  width: 600px;
+  height: 100%;
+  /*background-color: #66c4f0;*/
+}
+.bus_select_head .el-form-item {
+  margin-right: 0;
+  float: left;
+}
+.bus_select_head .owner_form_box {
+  width: 380px !important;
+}
+.outPort {
+  width: 160px;
+  height: 30px;
+  /*background-color: blue;*/
+  margin-left: 50px;
+  margin-bottom: 0;
+}
+.outPort .el-form-item__content {
+  width: 160px !important;
+  height: 100%;
+  margin-left: 0!important;
+}
+.outPortBtn {
+  display: inline-block;
+  width: 80px;
+  height: 26px;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.outPort .el-form-item__content .addBtn {
+  width: 60px;
+  height: 26px;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+/*添加的弹窗的样式*/
+.serverStart {
+  width: 130px!important;
+  line-height: 0!important;
+}
+.serverStart input {
+  padding-right: 0!important;
+}
+.serverStart .el-input__prefix {
+  left: 0;
+}
+.serverLen {
+  width: 130px!important;
+  box-sizing: border-box;
+}
+.serverLen input {
+  box-sizing: border-box;
+  padding: 0 0 0 16px!important;
+}
+.serverEnd {
+  width: 100px;
+}
+.beizhu {
+  height: 50px!important;
+  margin-bottom: 10px!important;
+}
+.beizhu textarea {
+  height: 50px!important;
+  border-radius: 0;
+  padding: 4px;
+}
+.el-input__inner {
+  height: 24px;
+}
+
+#addMoney .el-form-item__label::before, #editMoney .el-form-item__label::before {
+  content: '';
+}
+/*根据不同分辨率引入样式*/
+@media screen and (min-width: 1920px) {
+
+}
+@media screen and (max-width: 1680px) {
+  .yewuguanli td {
+    padding: 12px!important;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .yewuguanli td {
+    padding: 8px!important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .yewuguanli td {
+    padding: 8px!important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .yewuguanli td {
+    padding: 12px!important;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .yewuguanli td {
+    padding: 4px!important;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .yewuguanli td {
+    padding: 4px!important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .yewuguanli td {
+    padding: 5px!important;
+  }
+}

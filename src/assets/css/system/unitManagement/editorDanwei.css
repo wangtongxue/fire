@@ -1,0 +1,454 @@
+
+/*单位类型*/
+.unitEditorial_type .el-form-item__error{
+  margin-top: -8px; /**/
+}
+.unitEditorial .el-form-item__error{
+  width: 200px; /**/
+  left: 0 !important;
+  top: auto;
+  text-align: left;
+}
+.unitEditorial_type{
+  width: 100%;
+  height: 35px;
+}
+.unitEditorial_type .el-form{
+  height: 100%;
+}
+.unitEditorial_type .el-form .el-form-item{
+  height: 100%;
+}
+.unitEditorial_type .el-form .el-form-item .el-form-item__content{
+  height: 100%;
+  border:1px solid #71c7d5;
+  text-align: center;
+  box-sizing: border-box;
+  width: 800px;/**/
+  background-color: rgba(14,30,65,1);
+}
+.unitEditorial_type .el-form .el-form-item .el-form-item__content .el-radio-group{
+  width: 100%;
+  height: 100%;
+  vertical-align: initial;
+}
+.unitEditorial_type .el-form .el-form-item .el-form-item__content .el-radio-group .el-radio{
+  width: 130px; /**/
+  height: 100%;
+  margin-left: 0;
+  color: #fff;
+}
+
+/*基本信息*/
+.unitEditorial_information{
+  width: 100%;
+  height:350px; /**/
+  margin-top: 20px; /**/
+}
+.unitEditorial_information .unitEditorial_addUnit_info{
+  font-size: 14px;
+  height: 100%;
+  width: 100px; /**/
+}
+.unitEditorial_information .unitEditorial_addUnit_box{
+  border:1px solid #71c7d5;
+  margin-left: 100px;
+  height: 100%;
+  padding-top: 30px; /**/
+  box-sizing: border-box;
+  background-color: rgba(14,30,65,1);
+}
+.unitEditorial_addUnit_box .el-form  .el-form-item{
+  height: 36px;
+}
+.unitEditorial_addUnit_box .el-form  .el-form-item .el-form-item__content{
+  height: 100%;
+}
+.unitEditorial_addUnit_box .el-form  .el-form-item .el-form-item__content .el-input{
+  height: 100%;
+}
+.unitEditorial_addUnit_box .el-form  .el-form-item .el-form-item__content .el-input input{
+  height: 100%;
+  width: 40%;
+  border:1px solid #71c7d5;
+  background: #ffffff;
+}
+.unitEditorial_addUnit_ad{
+  height: 14%;
+  margin-bottom: 1%;
+  position: relative;
+}
+.unitEditorial_addUnit_address{
+  margin-left: 8px;
+  float: left;
+  position: absolute;
+  left: 86px; /**/
+  top: 0;
+  z-index: 121;
+}
+.unitEditorial_addUnit_address_set{
+  font-size: 14px;
+  margin-left: 50px; /**/
+  float: left;
+  line-height: 30px;
+}
+.unitEditorial_addUnit_address_title{
+  color: #333333;
+}
+.unitEditorial_addUnit_address_title div{
+  float: left;
+  height: 30px;
+  width: 129px;
+  font-size: 14px;
+  background-color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.unitEditorial_addUnit_address_ul li{
+  background: #ffffff;
+  width: 129px;
+  display: block;
+  cursor: pointer;
+}
+.unitEditorial_addUnit .el-input__inner .el-form-item__content{
+  margin-top: 80px;
+}
+.unitEditorial_addUnit_address_ul li{
+  background: #ffffff;
+  width: 129px;
+  display: block;
+  cursor: pointer;
+}
+.addList{
+  width:100%;
+  padding-left:0.32rem;
+  font-size:0.34rem;
+  line-height:0.88rem;
+  color:#666666;
+}
+.unitEditorial_addUnit_map{
+  margin-left: 60px;
+  position: relative;
+  font-size: 14px;
+  line-height: 30px;
+  height: 15%;
+}
+.unitEditorial_addUnit_map span{
+  color: #606266;
+}
+.unitEditorial_addUnit_map_cha{
+  width: 8%;
+  height: 200%;
+  position: absolute;
+  left: 180px;
+  top: 0;
+}
+/*添加联系人*/
+.unitEditorial_contacts{
+  width: 100%;
+  height: 210px; /**/
+  margin-top: 20px;/**/
+}
+.unitEditorial_addUnit_add{
+  border:1px solid #71c7d5;
+  margin-left: 100px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(14,30,65,1);
+}
+.unitEditorial_addUnit_set{
+  font-size: 14px;
+  margin-left: 3px; /**/
+}
+.unitEditorial_addUnit_add .el-form  .el-form-item{
+  height: 40px; /**/
+  /*margin-bottom: 1%;*/
+  margin-top: 15px; /**/
+}
+.unitEditorial_addUnit_add .el-form  .el-form-item .el-form-item__content{
+  height: 100%;
+}
+.unitEditorial_addUnit_add .el-form  .el-form-item .el-form-item__content .el-input{
+  height: 100%;
+}
+.unitEditorial_addUnit_add .el-form  .el-form-item .el-form-item__content .el-input input{
+  height: 100%;
+  width: 40%;
+  border:1px solid #71c7d5;
+  background: #ffffff;
+}
+/*确认否*/
+.unitEditorial_confirm{
+  width: 100%;
+  height: 5%;
+  margin-top: 2%;
+}
+.unitEditorial_confirm .el-form{
+  height: 100%;
+}
+.unitEditorial_confirm .el-form .el-form-item{
+  height: 100%;
+}
+.unitEditorial_confirm .el-form .el-form-item .el-form-item__content{
+  height: 100%;
+  text-align: center;
+}
+.unitEditorial_confirm .el-form .el-form-item .el-form-item__content .el-button{
+  height: 100%;
+  width: 6%;
+  padding: 0;
+  margin-left: 5%;
+  position: relative;
+}
+.unitEditorial_confirm .el-form .el-form-item .el-form-item__content .el-button span{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.unitEditorial_confirm .el-form .el-form-item .el-form-item__content .el-button span a{
+  text-decoration: none;
+  display: inline-block;
+  color: #666666;
+  height: 100%;
+  width: 100%;
+}
+
+/*根据不同分辨率引入样式*/
+@media screen and (min-width: 1920px) {
+  .unitEditorial_type .el-form-item .el-form-item__content .el-form-item__error{
+    margin-top: -8px; /**/
+  }
+  .unitEditorial_type{
+    height: 35px; /**/
+  }
+  .unitEditorial_type .el-form-item .el-form-item__content{
+    width: 800px;/**/
+  }
+  .unitEditorial_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+    width: 130px; /**/
+  }
+  /*基本信息*/
+  .unitEditorial_information{
+    height:350px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_box{
+    padding-top: 30px; /**/
+  }
+  .unitEditorial_addUnit_box  .el-form-item{
+    height: 36px; /**/
+  }
+  .unitEditorial_addUnit_ad{
+    height: 14%;/**/
+  }
+  .unitEditorial_addUnit_address{
+    left: 86px; /**/
+  }
+  .unitEditorial_addUnit_address_set{
+    margin-left: 50px; /**/
+  }
+  /*添加联系人*/
+  .unitEditorial_contacts{
+    height: 210px; /**/
+    margin-top: 20px;/**/
+  }
+  .unitEditorial_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitEditorial_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+  .unitEditorial_type .el-form-item .el-form-item__content .el-form-item__error{
+    margin-top: -8px; /**/
+  }
+  .unitEditorial_type{
+    height: 35px; /**/
+  }
+  .unitEditorial_type .el-form-item .el-form-item__content{
+    width: 800px;/**/
+  }
+  .unitEditorial_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+    width: 130px; /**/
+  }
+  /*基本信息*/
+  .unitEditorial_information{
+    height:350px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_box{
+    padding-top: 30px; /**/
+  }
+  .unitEditorial_addUnit_box  .el-form-item{
+    height: 36px; /**/
+  }
+  .unitEditorial_addUnit_ad{
+    height: 14%;/**/
+  }
+  .unitEditorial_addUnit_address{
+    left: 86px; /**/
+  }
+  .unitEditorial_addUnit_address_set{
+    margin-left: 50px; /**/
+  }
+  /*添加联系人*/
+  .unitEditorial_contacts{
+    height: 210px; /**/
+    margin-top: 20px;/**/
+  }
+  .unitEditorial_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitEditorial_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (max-width: 1680px) {
+
+}
+@media screen and (max-width: 1600px) {
+  .unitEditorial_type{
+    height: 30px; /**/
+  }
+  .unitEditorial_type .el-form-item .el-form-item__content{
+    width: 800px;/**/
+  }
+  .unitEditorial_type .el-form-item .el-form-item__content .el-radio-group .el-radio{
+    width: 130px; /**/
+  }
+  /*基本信息*/
+  .unitEditorial_information{
+    height:220px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_box{
+    padding-top: 10px; /**/
+    height: 220px;
+  }
+  .unitEditorial_addUnit_box  .el-form-item{
+    height: 30px; /**/
+    margin-bottom: 20px;
+  }
+  .unitEditorial_addUnit_box  .unitEditorial_addUnit_ad {
+    margin-bottom: 0;
+    height: 36px;
+  }
+  .unitEditorial_addUnit_box .detailAdd{
+    margin-bottom: 18px;
+  }
+  .unitEditorial_addUnit_ad{
+    height: 10%;/**/
+  }
+  /*添加联系人*/
+  .unitEditorial_contacts{
+    height: 210px; /**/
+    margin-top: 20px;/**/
+  }
+  .unitEditorial_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitEditorial_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1400px) {
+  .unitEditorial_type{
+    height: 32px; /**/
+  }
+  /*基本信息*/
+  .unitEditorial_information{
+    height:300px; /**/
+    margin-top: 36px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_info{
+    width: 100px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_box{
+    padding-top: 10px; /**/
+    height: 300px;
+  }
+  .unitEditorial_addUnit_box  .el-form-item{
+    height: 36px; /**/
+  }
+  .unitEditorial_addUnit_ad{
+    height: 16%;/**/
+  }
+  /*添加联系人*/
+  .unitEditorial_contacts{
+    height: 210px; /**/
+    margin-top: 36px;/**/
+  }
+  .unitEditorial_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitEditorial_addUnit_add  .el-form-item{
+    height: 40px; /**/
+    margin-top: 15px; /**/
+  }
+}
+@media screen and (max-width: 1366px) {
+  .unitEditorial_type{
+    height: 32px; /**/
+  }
+  /*基本信息*/
+  .unitEditorial_information{
+    height:220px; /**/
+    margin-top: 20px; /**/
+  }
+  .unitEditorial_information .unitEditorial_addUnit_box{
+    padding-top: 10px; /**/
+    height: 220px;
+  }
+  .unitEditorial_addUnit_box  .el-form-item{
+    height: 30px; /**/
+  }
+  .unitEditorial_addUnit_ad{
+    height: 12%;/**/
+  }
+  /*添加联系人*/
+  .unitEditorial_contacts{
+    height: 144px; /**/
+    margin-top: 10px;/**/
+  }
+  .unitEditorial_addUnit_set{
+    margin-left: 3px; /**/
+  }
+  .unitEditorial_addUnit_add  .el-form {
+    height: 100%;
+    margin-top: -15px;
+  }
+  .unitEditorial_addUnit_add  .el-form-item{
+    height: 24px !important; /**/
+    margin-top: 0px; /**/
+  }
+}
+@media screen and (max-width: 1360px) {
+
+}
+@media screen and (max-width: 1280px) {
+  .unitEditorial_contacts{
+    margin-top: 20px;/**/
+  }
+}

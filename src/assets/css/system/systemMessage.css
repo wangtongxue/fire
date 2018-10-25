@@ -1,0 +1,77 @@
+body {
+  
+}
+/*---内部tab主体块---------------------*/
+#system_msg_tab {
+  /*background-color: #71c7d5;*/
+  width: 100%;
+  height: 100%;
+}
+#system_msg_tab .el-tabs {
+  width: 100%;
+  height: 100% !important;
+}
+#system_msg_tab .el-tabs__header {
+  width: 100%;
+  height: 5%;
+  background-color: rgba(0,0,0,0);
+}
+#system_msg_tab .el-tabs__item {
+  color: #fff;
+}
+#system_msg_tab .is-active {
+  color: #71c7d5;
+}
+#system_msg_tab .el-tabs__active-bar {
+  background-color: #71c7d5;
+}
+#system_msg_tab .el-tabs__nav-wrap::after {
+  background-color: #3353a3;
+}
+/**-----tab-body---------------------------------*/
+#system_msg_tab .el-tabs__content {
+  width: 100%;
+  height: 90%;
+  background-color: #020a30;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#pane-2, #pane-3 {
+  width: 100%;
+  height: 100%;
+}
+#pane-2 .happy-scroll, #pane-3 .happy-scroll {
+  height: 100% !important;
+}
+#pane-2 .happy-scroll .happy-scroll-container,#pane-3 .happy-scroll .happy-scroll-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+#pane-2 .happy-scroll .happy-scroll-container .happy-scroll-content, #pane-3 .happy-scroll .happy-scroll-container .happy-scroll-content {
+  padding: 0;
+}
+/*----针对h4h5..设置样式--------------------------*/
+#system_msg_tab h3 {
+  width: 100%;
+  text-align: center;
+  color: #66c4f0;
+  font-size: 20px;
+  line-height: 40px;
+}
+#system_msg_tab h4 {
+  color: #71c7d5;
+  font-size: 18px;
+  line-height: 32px;
+}
+#system_msg_tab span {
+  font-size: 16px;
+  line-height: 24px;
+  text-indent: 2em;
+  display: inline-block;
+}
+#system_msg_tab i {
+  font-size: 14px;
+  line-height: 24px;
+  text-indent: 4em;
+  display: inline-block;
+}

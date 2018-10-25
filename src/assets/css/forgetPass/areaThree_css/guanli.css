@@ -1,0 +1,58 @@
+.guanli_body {
+  width: 100%;
+  height: 90.788%;
+  /*background-color: darkmagenta;*/
+}
+/*-------第二级导航-------------------------------------------------------*/
+/*.guanli_body .fenxi_nav {*/
+  /*width: 100%;*/
+  /*height: 4%;*/
+  /*margin: 0 auto 0.4%;*/
+/*}*/
+.guanli_body .guanli_nav ul {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  border: 0.0625em solid #71c7d5;
+  background-color: #0e1e41;
+  box-sizing: border-box;
+  display: table;
+}
+.guanli_body .guanli_nav ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid #71c7d5;
+  text-align: center;
+  background: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.guanli_body .guanli_nav ul .router-link-active {
+  background: #16499d;
+}
+.guanli_body .guanli_nav ul li:nth-of-type(5) {
+  border-right: none;
+}
+.guanli_body .guanli_nav ul li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.875em;
+  font-family: 'SimSun';
+  line-height: 190%;
+}
+/******这里是改变导航条的选中背景*************************************************************************/
+.guanli_body .router-link-active {
+  background: #16499d !important;
+}
+/*-------------过渡动画------------------------------------------------------*/
+.guanli_body .component-fade-enter-active, .guanli_body .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.guanli_body .component-fade-enter, .guanli_body .component-fade-leave-to {
+  opacity: 0;
+}

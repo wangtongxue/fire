@@ -1,0 +1,149 @@
+/*------整个下半部分的布局样式-----------------------------------------*/
+.guanli_huozai_box {
+  width: 100%;
+  height: 94.96%;
+  background: rgba(14,30,65,1);
+  padding: 1.4% ;
+  box-sizing: border-box;
+  margin-top: 0.4%;
+}
+/*-----内容区域的主要样式--------------------------------------------*/
+.guanli_huozai_box .guanli_huozai_main_box {
+  width: 50%;
+  height: 320px;
+  /*background: blanchedalmond;*/
+  margin: 0 auto;
+}
+/*-------内容区域的头部样式--------------------------------------------------------*/
+.guanli_huozai_box .guanli_huozai_main_box .box_head {
+  width: 100%;
+  height: 32px;
+  /*background: #ccc;*/
+  line-height: 32px;
+}
+.guanli_huozai_box .guanli_huozai_main_box .box_head h4 {
+  display: inline-block;
+  font-size: 1em;
+  font-family: 'SimSun';
+  height: 100%;
+  line-height: 2em;
+  color: #71c7d5;
+}
+/*-------内容区域的body样式--------------------------------------------------------*/
+.guanli_huozai_box .guanli_huozai_main_box .box_body {
+  width: 100%;
+  height: 348px;
+  box-sizing: border-box;
+  border: 1px solid #71c7d5;
+  padding: 15px;
+  position: relative;
+}
+.guanli_huozai_box .guanli_huozai_main_box .box_body .el-form-item__label {
+  color: #fff;
+  font-size: 0.875em;
+  font-family: 'SimSun';
+}
+.guanli_huozai_box .guanli_huozai_main_box .box_body .el-input__inner {
+  border-radius: 0;
+  height: 30px;
+  width: 60%;
+  background: rgba(0,0,0,0);
+  border: 0;
+  border-bottom: 1px solid #71c7d5;
+  color: #fff;
+}
+.guanli_huozai_box .guanli_huozai_main_box .box_body .el-form-item {
+  margin-bottom: 14px;
+}
+.guanli_huozai_box .guanli_huozai_main_box .box_body .el-form-item .el-form-item__error {
+  left: 14px !important;
+  padding-top: 0px;
+  top: 38px;
+}
+.guanli_huozai_btn {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -36px;
+  right: 0;
+}
+.guanli_huozai_btn .el-form-item__content {
+  margin-left: 0 !important;
+}
+.guanli_huozai_btn .huozai_btn {
+  color: #de6415;
+  border-radius: 0;
+  margin-left: 0 !important;
+  font-size: 14px;
+  font-family: 'SimSun';
+  border: 0;
+  padding: 7px 10px;
+  background: rgba(0,0,0,0);
+  font-weight: bold;
+}
+.guanli_huozai_btn huozai_btn:hover {
+  background: #2c549b;
+}
+
+
+/*--alert弹框的ui--------------*/
+.el-message {
+  padding: 0px;
+  border: 0;
+}
+.el-message__icon {
+  margin-right: 0;
+}
+.el-message__icon:before {
+  content: "";
+}
+.el-message__content, .el-message__content div {
+  width: 100%;
+  height: 100%;
+}
+.el-message h4 {
+  width: 100%;
+  line-height: 30px;
+  background-color: #448ac9;
+  padding-left: 10px;
+  color: #fff;
+}
+.el-message span {
+  width: 100%;
+  display: block;
+  line-height: 46px;
+  text-align: center;
+}
+
+/**----确认取消的弹窗-----------------------*/
+.el-message-box {
+  border: 0;
+}
+.el-message-box__header {
+  padding: 0 0 0 10px;
+  background-color: #448ac9;
+}
+.el-message-box__title {
+  color: #fff;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 14px;
+}
+.el-message-box__headerbtn {
+  top: 0px;
+  right: 0px;
+  color: #fff;
+  padding: 6px 10px;
+}
+.el-message-box__headerbtn .el-message-box__close {
+  color: #fff;
+}
+.el-message-box__status::before {
+  content: '';
+}
+.el-message-box__message {
+  color: #448ac9;
+}
+.el-message-box__btns button:nth-of-type(2) {
+  background-color: #448ac9;
+}

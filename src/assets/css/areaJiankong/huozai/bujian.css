@@ -1,0 +1,186 @@
+/*!*-------表格-------------------------------------------------------*!*/
+/*body .el-table th.gutter{*/
+  /*display: table-cell!important;*/
+/*}*/
+/*#bujian {*/
+  /*width: 100%;*/
+  /*height: 94.5%;*/
+  /*margin-top: 0.6%;*/
+/*}*/
+/*#bujian .huozai_box_table {*/
+  /*width: 100% !important;*/
+  /*height: 100%!important;*/
+  /*background: rgba(0,0,0,0);*/
+  /*border-bottom: 0;*/
+  /*margin-bottom: 0.4%;*/
+/*}*/
+/*#bujian .huozai_box_table .el-table__header-wrapper {*/
+  /*width: 100%;*/
+/*}*/
+/*.el-table--border{*/
+  /*border: 1px solid #71c7d5;*/
+/*}*/
+/*.el-table th.is-leaf {*/
+  /*border-bottom: 1px solid #71c7d5;*/
+/*}*/
+/*.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {*/
+  /*border-right: 1px solid #71c7d5;*/
+/*}*/
+/*.el-table td, .el-table th.is-leaf {*/
+  /*border-bottom: 1px solid #71c7d5;*/
+/*}*/
+/*.el-table--border::after, .el-table--group::after {*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*width: 0px;*/
+  /*height: 100%;*/
+/*}*/
+/*#bujian tbody tr td:nth-of-type(11) {*/
+  /*border-right: 0;*/
+/*}*/
+/*#bujian thead tr th:nth-of-type(11) {*/
+  /*border-right: 0;*/
+/*}*/
+/*#bujian thead tr th:nth-of-type(11) {*/
+  /*border-right: 0 !important;*/
+/*}*/
+/*#bujian thead tr th {*/
+  /*border-left: 0 !important;*/
+  /*border-right: 1px solid #71c7d5 !important;*/
+/*}*/
+
+/*.el-table--border::after, .el-table--group::after, .el-table::before {*/
+  /*content: '';*/
+  /*position: absolute;*/
+  /*!*background-color: #71c7d5;*!*/
+  /*z-index: 1;*/
+/*}*/
+/*!*----table-body--------------------*!*/
+/*#bujian .huozai_box_table .el-table__body-wrapper {*/
+  /*width: 100%;*/
+  /*height: 93%;*/
+/*}*/
+/*#bujian .huozai_box_table .el-table__body-wrapper .el-table__body {*/
+  /*height: 100%;*/
+/*}*/
+/*#bujian .huozai_box_table .el-table__body-wrapper .el-table__body tbody {*/
+  /*height: 100%;*/
+/*}*/
+/*#bujian .huozai_box_table .el-table__body-wrapper .el-table__body tbody tr {*/
+  /*height: 10%;*/
+/*}*/
+/*#bujian .el-table--scrollable-x .el-table__body-wrapper{*/
+  /*overflow: hidden;*/
+/*}*/
+/*#bujian .el-table::before {*/
+  /*content: '';*/
+  /*position: absolute;*/
+  /*background-color: rgba(0,0,0,0);*/
+/*}*/
+/*#bujian .el-table--border::after, #bujian .el-table--group::after, #bujian .el-table::before {*/
+  /*content: '';*/
+  /*!*position: static;*!*/
+/*}*/
+/*#bujian .el-table__body-wrapper {*/
+  /*!*height: auto;*!*/
+/*}*/
+/*#bujian .el-table--medium td {*/
+  /*padding: 0.6em 0;*/
+/*}*/
+/*!*----解决ie和火狐下边框不显示的问题---------------------*!*/
+/*th {*/
+  /*background-clip: padding-box !important;*/
+/*}*/
+/*td {*/
+  /*background-clip: padding-box !important;*/
+/*}*/
+
+/*!*---------报警页面的分页--------------------------------------------------------*!*/
+/*#baojing .baojing_page {*/
+  /*width: 100%;*/
+  /*height: 4.5%;*/
+/*}*/
+/*.bujian_page span {*/
+  /*font-size: 0.875em;*/
+  /*font-family: 'SimSun';*/
+  /*font-weight: bold;*/
+/*}*/
+
+/*!*根据不同分辨率引入样式*!*/
+/*@media screen and (min-width: 1920px) {*/
+  /*#bujian {*/
+    /*height: 91.4%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 26px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.4%;*/
+  /*}*/
+/*}*/
+/*@media screen and (min-width: 1600px) and (max-width: 1920px) {*/
+  /*#bujian {*/
+    /*height: 91.4%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 26px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.4%;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 1600px) {*/
+  /*#bujian {*/
+    /*height: 90.5%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 26px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.4%;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 1440px) {*/
+  /*#bujian {*/
+    /*height: 91.5%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 28px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.4%;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 1366px) {*/
+  /*#bujian {*/
+    /*height: 89%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 26px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.4%;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 1360px) {*/
+  /*#bujian {*/
+    /*height: 90%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 26px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.4%;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 1280px) {*/
+  /*#bujian {*/
+    /*height: 90%;*/
+  /*}*/
+  /*.bujian_page span {*/
+    /*line-height: 28px;*/
+  /*}*/
+  /*#bujian .huozai_box_table {*/
+    /*margin-bottom: 0.8%;*/
+  /*}*/
+/*}*/

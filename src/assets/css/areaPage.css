@@ -1,0 +1,126 @@
+/*-------单位选择界面的css-------------------------------------------------------*/
+#area {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  /*background: greenyellow;*/
+  margin: 0 auto;
+}
+/*-------主体内容布局-------------------------------------------------------*/
+#area .area_body {
+  /*background-color: #ccc;*/
+  width: 93%;
+  height: 95%;
+  margin: 0 auto;
+}
+/*-------主体头部-------------------------------------------------------*/
+#area .area_body .tab_head {
+  width: 100%;
+  height: 9.212%;
+  /*position: relative;*/
+}
+/*-------头部导航-------------------------------------------------------*/
+#area .area_body .total_nav {
+  width: 40%;
+  height: 100%;
+  /*position: absolute;*/
+  /*left: 0%;*/
+  /*top: 0;*/
+  margin: 0 auto;
+  background: url("../img/area_nav_one_bg.png") no-repeat center;
+  -webkit-background-size: 100% 90%;
+  background-size: 100% 85%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+#area .area_body .total_nav div:nth-of-type(1) {
+  margin-left: 9%;
+}
+#area .area_body .total_nav div {
+  display: table;
+  float: left;
+  width: 22%;
+  margin: 0 4%;
+  height: 80%;
+  background: url("../../assets/img/area_nav_one_icon.png") no-repeat center;
+  -webkit-background-size: 98% 98%;
+  background-size: 98% 98%;
+}
+#area .area_body .total_nav a {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.875em;
+  font-family: 'SimSun';
+  text-align: center;
+}
+#area .area_body .router-link-active {
+  background: url("../../assets/img/area_one_icon_active.png") no-repeat center 0;
+  background-size: 98% 98%;
+}
+
+/*---------过渡动画------------------------------------*/
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to {
+  opacity: 0;
+}
+
+/*当前选中的单位的单位名称*/
+#unitName {
+  /*background: red;*/
+  font-size: 16px;
+  position: fixed;
+  margin-top: 60px;
+}
+#unitName span {
+  color: #71c7d5;
+  text-decoration: underline #71c7d5;
+}
+
+/*根据不同分辨率引入样式*/
+@media screen and (max-width: 1920px) {
+  #unitName {
+    margin-top: 84px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  #unitName {
+    margin-top: 82px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  #unitName {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #unitName {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #unitName {
+    margin-top: 82px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  #unitName {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  #unitName {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #unitName {
+    margin-top: 62px;
+  }
+}
+
